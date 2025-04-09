@@ -74,7 +74,7 @@ public class MemberController {
     }
     @GetMapping("/mem")
     public ResponseEntity getList(){
-        return ResponseEntity.status(HttpStatus.OK).body( ms.getList());
+        return ResponseEntity.status(HttpStatus.OK).body( ms.getList() );
     }
     @PutMapping("/mem/{id}")
     public ResponseEntity update1(@PathVariable("id") String id,

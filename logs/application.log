@@ -2289,3 +2289,646 @@ Caused by: java.lang.ClassNotFoundException: com.example.ex01.repo.MemberDataSet
 2025-04-09T12:59:26.785+09:00  INFO 18364 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-04-09T12:59:26.789+09:00  INFO 18364 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Started Ex01Application in 0.96 seconds (process running for 915.138)
 2025-04-09T12:59:26.791+09:00  INFO 18364 --- [ex01] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-09T12:59:33.073+09:00  INFO 27112 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Starting Ex01Application using Java 17.0.14 with PID 27112 (C:\boot-workspace\ex01\build\classes\java\main started by chohe in C:\boot-workspace\ex01)
+2025-04-09T12:59:33.081+09:00 DEBUG 27112 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-09T12:59:33.082+09:00  INFO 27112 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T12:59:33.188+09:00  INFO 27112 --- [ex01] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-09T12:59:33.189+09:00  INFO 27112 --- [ex01] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-09T12:59:35.075+09:00  INFO 27112 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-09T12:59:35.097+09:00  INFO 27112 --- [ex01] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-09T12:59:35.098+09:00  INFO 27112 --- [ex01] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09T12:59:35.159+09:00  INFO 27112 --- [ex01] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-09T12:59:35.159+09:00  INFO 27112 --- [ex01] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1969 ms
+2025-04-09T12:59:35.826+09:00  INFO 27112 --- [ex01] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T12:59:35.881+09:00  INFO 27112 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T12:59:35.898+09:00  INFO 27112 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Started Ex01Application in 3.599 seconds (process running for 4.183)
+2025-04-09T13:00:21.920+09:00  INFO 27112 --- [ex01] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-09T13:00:21.922+09:00  INFO 27112 --- [ex01] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-09T13:00:21.926+09:00  INFO 27112 --- [ex01] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-04-09T14:19:55.751+09:00  INFO 27112 --- [ex01] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-04-09T14:19:55.758+09:00  INFO 27112 --- [ex01] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-09T14:19:56.078+09:00  INFO 27112 --- [ex01] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-09T14:19:56.204+09:00  INFO 27112 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Starting Ex01Application using Java 17.0.14 with PID 27112 (C:\boot-workspace\ex01\build\classes\java\main started by chohe in C:\boot-workspace\ex01)
+2025-04-09T14:19:56.205+09:00 DEBUG 27112 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-09T14:19:56.207+09:00  INFO 27112 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T14:19:56.668+09:00  INFO 27112 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-09T14:19:56.669+09:00  INFO 27112 --- [ex01] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-09T14:19:56.670+09:00  INFO 27112 --- [ex01] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09T14:19:56.710+09:00  INFO 27112 --- [ex01] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-09T14:19:56.712+09:00  INFO 27112 --- [ex01] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 499 ms
+2025-04-09T14:19:56.911+09:00  INFO 27112 --- [ex01] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T14:19:56.929+09:00  INFO 27112 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T14:19:56.932+09:00  INFO 27112 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Started Ex01Application in 0.78 seconds (process running for 4825.217)
+2025-04-09T14:19:56.934+09:00  INFO 27112 --- [ex01] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-09T14:19:59.387+09:00  INFO 27112 --- [ex01] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-04-09T14:19:59.389+09:00  INFO 27112 --- [ex01] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-09T14:19:59.701+09:00  INFO 27112 --- [ex01] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-09T14:19:59.901+09:00  INFO 27112 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Starting Ex01Application using Java 17.0.14 with PID 27112 (C:\boot-workspace\ex01\build\classes\java\main started by chohe in C:\boot-workspace\ex01)
+2025-04-09T14:19:59.902+09:00 DEBUG 27112 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-09T14:19:59.903+09:00  INFO 27112 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T14:20:00.503+09:00  INFO 27112 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-09T14:20:00.507+09:00  INFO 27112 --- [ex01] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-09T14:20:00.508+09:00  INFO 27112 --- [ex01] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09T14:20:00.545+09:00  INFO 27112 --- [ex01] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-09T14:20:00.545+09:00  INFO 27112 --- [ex01] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 637 ms
+2025-04-09T14:20:00.713+09:00  INFO 27112 --- [ex01] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T14:20:00.728+09:00  INFO 27112 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T14:20:00.731+09:00  INFO 27112 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Started Ex01Application in 0.967 seconds (process running for 4829.015)
+2025-04-09T14:20:00.733+09:00  INFO 27112 --- [ex01] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-09T14:20:44.634+09:00  INFO 11500 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Starting Ex01Application using Java 17.0.14 with PID 11500 (C:\boot-workspace\ex01\build\classes\java\main started by chohe in C:\boot-workspace\ex01)
+2025-04-09T14:20:44.640+09:00 DEBUG 11500 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-09T14:20:44.642+09:00  INFO 11500 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T14:20:44.731+09:00  INFO 11500 --- [ex01] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-09T14:20:44.732+09:00  INFO 11500 --- [ex01] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-09T14:20:46.361+09:00  INFO 11500 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-09T14:20:46.381+09:00  INFO 11500 --- [ex01] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-09T14:20:46.381+09:00  INFO 11500 --- [ex01] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09T14:20:46.440+09:00  INFO 11500 --- [ex01] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-09T14:20:46.441+09:00  INFO 11500 --- [ex01] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1709 ms
+2025-04-09T14:20:47.150+09:00  INFO 11500 --- [ex01] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T14:20:47.225+09:00  INFO 11500 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T14:20:47.243+09:00  INFO 11500 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Started Ex01Application in 3.373 seconds (process running for 4.054)
+2025-04-09T14:20:50.630+09:00  INFO 11500 --- [ex01] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-04-09T14:20:50.634+09:00  INFO 11500 --- [ex01] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-09T14:20:50.915+09:00  INFO 11500 --- [ex01] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-09T14:20:51.060+09:00  INFO 11500 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Starting Ex01Application using Java 17.0.14 with PID 11500 (C:\boot-workspace\ex01\build\classes\java\main started by chohe in C:\boot-workspace\ex01)
+2025-04-09T14:20:51.061+09:00 DEBUG 11500 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-09T14:20:51.062+09:00  INFO 11500 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T14:20:51.540+09:00  INFO 11500 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-09T14:20:51.541+09:00  INFO 11500 --- [ex01] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-09T14:20:51.542+09:00  INFO 11500 --- [ex01] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09T14:20:51.563+09:00  INFO 11500 --- [ex01] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-09T14:20:51.564+09:00  INFO 11500 --- [ex01] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 498 ms
+2025-04-09T14:20:51.671+09:00  INFO 11500 --- [ex01] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T14:20:51.679+09:00  INFO 11500 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T14:20:51.682+09:00  INFO 11500 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Started Ex01Application in 0.688 seconds (process running for 8.493)
+2025-04-09T14:20:51.685+09:00  INFO 11500 --- [ex01] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-09T14:20:54.294+09:00  INFO 11500 --- [ex01] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-09T14:20:54.294+09:00  INFO 11500 --- [ex01] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-09T14:20:54.295+09:00  INFO 11500 --- [ex01] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-04-09T14:20:55.375+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:20:56.385+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:20:57.401+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:20:58.413+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:20:59.424+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:21:00.432+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:21:01.435+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:21:02.449+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:21:03.457+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:21:04.469+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:21:04.469+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 백앤드 연산 끝 return 전달
+2025-04-09T14:21:05.544+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:21:06.556+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:21:07.564+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:21:08.579+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:21:09.594+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:21:10.607+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:21:11.619+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:21:12.631+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:21:13.641+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:21:14.650+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:21:14.650+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 백앤드 연산 끝 return 전달
+2025-04-09T14:21:25.897+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-3] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:21:26.907+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-3] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:21:27.921+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-3] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:21:28.936+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-3] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:21:29.940+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-3] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:21:30.951+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-3] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:21:31.962+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-3] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:21:32.974+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-3] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:21:33.984+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-3] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:21:34.989+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-3] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:21:34.990+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-3] c.e.ex01.controller.MemberController     : 백앤드 연산 끝 return 전달
+2025-04-09T14:21:35.997+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-4] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:21:37.009+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-4] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:21:38.016+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-4] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:21:39.025+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-4] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:21:40.041+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-4] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:21:41.051+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-4] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:21:42.060+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-4] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:21:43.067+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-4] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:21:44.072+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-4] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:21:45.079+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-4] c.e.ex01.controller.MemberController     : 백앤드 연산 중
+2025-04-09T14:21:45.079+09:00 DEBUG 11500 --- [ex01] [http-nio-8080-exec-4] c.e.ex01.controller.MemberController     : 백앤드 연산 끝 return 전달
+2025-04-09T14:22:01.842+09:00  INFO 24684 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Starting Ex01Application using Java 17.0.14 with PID 24684 (C:\boot-workspace\ex01\build\classes\java\main started by chohe in C:\boot-workspace\ex01)
+2025-04-09T14:22:01.845+09:00 DEBUG 24684 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-09T14:22:01.847+09:00  INFO 24684 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T14:22:01.931+09:00  INFO 24684 --- [ex01] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-09T14:22:01.932+09:00  INFO 24684 --- [ex01] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-09T14:22:03.523+09:00  INFO 24684 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-09T14:22:03.541+09:00  INFO 24684 --- [ex01] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-09T14:22:03.541+09:00  INFO 24684 --- [ex01] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09T14:22:03.599+09:00  INFO 24684 --- [ex01] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-09T14:22:03.599+09:00  INFO 24684 --- [ex01] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1666 ms
+2025-04-09T14:22:04.124+09:00  INFO 24684 --- [ex01] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T14:22:04.169+09:00  INFO 24684 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T14:22:04.179+09:00  INFO 24684 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Started Ex01Application in 3.03 seconds (process running for 3.517)
+2025-04-09T14:22:07.570+09:00  INFO 24684 --- [ex01] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-04-09T14:22:07.574+09:00  INFO 24684 --- [ex01] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-09T14:22:07.845+09:00  INFO 24684 --- [ex01] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-09T14:22:07.948+09:00  INFO 24684 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Starting Ex01Application using Java 17.0.14 with PID 24684 (C:\boot-workspace\ex01\build\classes\java\main started by chohe in C:\boot-workspace\ex01)
+2025-04-09T14:22:07.949+09:00 DEBUG 24684 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-09T14:22:07.949+09:00  INFO 24684 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T14:22:08.335+09:00  INFO 24684 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-09T14:22:08.337+09:00  INFO 24684 --- [ex01] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-09T14:22:08.338+09:00  INFO 24684 --- [ex01] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09T14:22:08.360+09:00  INFO 24684 --- [ex01] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-09T14:22:08.360+09:00  INFO 24684 --- [ex01] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 406 ms
+2025-04-09T14:22:08.459+09:00  INFO 24684 --- [ex01] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T14:22:08.467+09:00  INFO 24684 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T14:22:08.471+09:00  INFO 24684 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Started Ex01Application in 0.566 seconds (process running for 7.81)
+2025-04-09T14:22:08.473+09:00  INFO 24684 --- [ex01] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-09T14:22:18.191+09:00  INFO 24684 --- [ex01] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-09T14:22:18.191+09:00  INFO 24684 --- [ex01] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-09T14:22:18.192+09:00  INFO 24684 --- [ex01] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-04-09T14:22:19.260+09:00 DEBUG 24684 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 0.백앤드 연산 중
+2025-04-09T14:22:20.274+09:00 DEBUG 24684 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 1.백앤드 연산 중
+2025-04-09T14:22:21.286+09:00 DEBUG 24684 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 2.백앤드 연산 중
+2025-04-09T14:22:22.296+09:00 DEBUG 24684 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 3.백앤드 연산 중
+2025-04-09T14:22:23.308+09:00 DEBUG 24684 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 4.백앤드 연산 중
+2025-04-09T14:22:24.315+09:00 DEBUG 24684 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 5.백앤드 연산 중
+2025-04-09T14:22:25.319+09:00 DEBUG 24684 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 6.백앤드 연산 중
+2025-04-09T14:22:26.322+09:00 DEBUG 24684 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 7.백앤드 연산 중
+2025-04-09T14:22:27.328+09:00 DEBUG 24684 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 8.백앤드 연산 중
+2025-04-09T14:22:28.339+09:00 DEBUG 24684 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 9.백앤드 연산 중
+2025-04-09T14:22:28.339+09:00 DEBUG 24684 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 백앤드 연산 끝 return 전달
+2025-04-09T14:22:29.414+09:00 DEBUG 24684 --- [ex01] [http-nio-8080-exec-2] c.e.ex01.controller.MemberController     : 0.백앤드 연산 중
+2025-04-09T14:22:30.419+09:00 DEBUG 24684 --- [ex01] [http-nio-8080-exec-2] c.e.ex01.controller.MemberController     : 1.백앤드 연산 중
+2025-04-09T14:22:31.420+09:00 DEBUG 24684 --- [ex01] [http-nio-8080-exec-2] c.e.ex01.controller.MemberController     : 2.백앤드 연산 중
+2025-04-09T14:22:32.429+09:00 DEBUG 24684 --- [ex01] [http-nio-8080-exec-2] c.e.ex01.controller.MemberController     : 3.백앤드 연산 중
+2025-04-09T14:22:33.441+09:00 DEBUG 24684 --- [ex01] [http-nio-8080-exec-2] c.e.ex01.controller.MemberController     : 4.백앤드 연산 중
+2025-04-09T14:22:34.454+09:00 DEBUG 24684 --- [ex01] [http-nio-8080-exec-2] c.e.ex01.controller.MemberController     : 5.백앤드 연산 중
+2025-04-09T14:22:35.463+09:00 DEBUG 24684 --- [ex01] [http-nio-8080-exec-2] c.e.ex01.controller.MemberController     : 6.백앤드 연산 중
+2025-04-09T14:22:36.469+09:00 DEBUG 24684 --- [ex01] [http-nio-8080-exec-2] c.e.ex01.controller.MemberController     : 7.백앤드 연산 중
+2025-04-09T14:22:37.483+09:00 DEBUG 24684 --- [ex01] [http-nio-8080-exec-2] c.e.ex01.controller.MemberController     : 8.백앤드 연산 중
+2025-04-09T14:22:38.498+09:00 DEBUG 24684 --- [ex01] [http-nio-8080-exec-2] c.e.ex01.controller.MemberController     : 9.백앤드 연산 중
+2025-04-09T14:22:38.500+09:00 DEBUG 24684 --- [ex01] [http-nio-8080-exec-2] c.e.ex01.controller.MemberController     : 백앤드 연산 끝 return 전달
+2025-04-09T14:22:45.602+09:00  INFO 23452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Starting Ex01Application using Java 17.0.14 with PID 23452 (C:\boot-workspace\ex01\build\classes\java\main started by chohe in C:\boot-workspace\ex01)
+2025-04-09T14:22:45.605+09:00 DEBUG 23452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-09T14:22:45.606+09:00  INFO 23452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T14:22:45.751+09:00  INFO 23452 --- [ex01] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-09T14:22:45.751+09:00  INFO 23452 --- [ex01] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-09T14:22:47.621+09:00  INFO 23452 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-09T14:22:47.639+09:00  INFO 23452 --- [ex01] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-09T14:22:47.639+09:00  INFO 23452 --- [ex01] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09T14:22:47.742+09:00  INFO 23452 --- [ex01] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-09T14:22:47.743+09:00  INFO 23452 --- [ex01] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1991 ms
+2025-04-09T14:22:48.552+09:00  INFO 23452 --- [ex01] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T14:22:48.605+09:00  INFO 23452 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T14:22:48.620+09:00  INFO 23452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Started Ex01Application in 3.924 seconds (process running for 4.548)
+2025-04-09T14:22:50.007+09:00  INFO 23452 --- [ex01] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-04-09T14:22:50.013+09:00  INFO 23452 --- [ex01] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-09T14:22:50.360+09:00  INFO 23452 --- [ex01] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-09T14:22:50.474+09:00  INFO 23452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Starting Ex01Application using Java 17.0.14 with PID 23452 (C:\boot-workspace\ex01\build\classes\java\main started by chohe in C:\boot-workspace\ex01)
+2025-04-09T14:22:50.474+09:00 DEBUG 23452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-09T14:22:50.475+09:00  INFO 23452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T14:22:50.990+09:00  INFO 23452 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-09T14:22:50.991+09:00  INFO 23452 --- [ex01] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-09T14:22:50.992+09:00  INFO 23452 --- [ex01] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09T14:22:51.016+09:00  INFO 23452 --- [ex01] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-09T14:22:51.017+09:00  INFO 23452 --- [ex01] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 537 ms
+2025-04-09T14:22:51.266+09:00  INFO 23452 --- [ex01] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T14:22:51.306+09:00  INFO 23452 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T14:22:51.312+09:00  INFO 23452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Started Ex01Application in 0.893 seconds (process running for 7.241)
+2025-04-09T14:22:51.319+09:00  INFO 23452 --- [ex01] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-09T14:22:53.765+09:00  INFO 23452 --- [ex01] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-04-09T14:22:53.767+09:00  INFO 23452 --- [ex01] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-09T14:22:54.146+09:00  INFO 23452 --- [ex01] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-09T14:22:54.246+09:00  INFO 23452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Starting Ex01Application using Java 17.0.14 with PID 23452 (C:\boot-workspace\ex01\build\classes\java\main started by chohe in C:\boot-workspace\ex01)
+2025-04-09T14:22:54.247+09:00 DEBUG 23452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-09T14:22:54.247+09:00  INFO 23452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T14:22:54.692+09:00  INFO 23452 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-09T14:22:54.693+09:00  INFO 23452 --- [ex01] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-09T14:22:54.693+09:00  INFO 23452 --- [ex01] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09T14:22:54.732+09:00  INFO 23452 --- [ex01] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-09T14:22:54.732+09:00  INFO 23452 --- [ex01] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 482 ms
+2025-04-09T14:22:54.822+09:00  INFO 23452 --- [ex01] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T14:22:54.828+09:00  INFO 23452 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T14:22:54.832+09:00  INFO 23452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Started Ex01Application in 0.625 seconds (process running for 10.76)
+2025-04-09T14:22:54.834+09:00  INFO 23452 --- [ex01] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-09T14:23:15.688+09:00  INFO 23452 --- [ex01] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-09T14:23:15.689+09:00  INFO 23452 --- [ex01] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-09T14:23:15.690+09:00  INFO 23452 --- [ex01] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-04-09T14:39:00.466+09:00  INFO 23452 --- [ex01] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-04-09T14:39:00.468+09:00  INFO 23452 --- [ex01] [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-09T14:39:00.822+09:00  INFO 23452 --- [ex01] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-09T14:39:00.972+09:00  INFO 23452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Starting Ex01Application using Java 17.0.14 with PID 23452 (C:\boot-workspace\ex01\build\classes\java\main started by chohe in C:\boot-workspace\ex01)
+2025-04-09T14:39:00.973+09:00 DEBUG 23452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-09T14:39:00.975+09:00  INFO 23452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T14:39:01.536+09:00  INFO 23452 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-09T14:39:01.537+09:00  INFO 23452 --- [ex01] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-09T14:39:01.540+09:00  INFO 23452 --- [ex01] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09T14:39:01.636+09:00  INFO 23452 --- [ex01] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-09T14:39:01.636+09:00  INFO 23452 --- [ex01] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 655 ms
+2025-04-09T14:39:01.788+09:00  INFO 23452 --- [ex01] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T14:39:01.805+09:00  INFO 23452 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T14:39:01.821+09:00  INFO 23452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Started Ex01Application in 0.912 seconds (process running for 977.749)
+2025-04-09T14:39:01.822+09:00  INFO 23452 --- [ex01] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-09T14:39:05.245+09:00  INFO 23452 --- [ex01] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-04-09T14:39:05.248+09:00  INFO 23452 --- [ex01] [Thread-15] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-09T14:39:05.544+09:00  INFO 23452 --- [ex01] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-09T14:39:05.643+09:00  INFO 23452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Starting Ex01Application using Java 17.0.14 with PID 23452 (C:\boot-workspace\ex01\build\classes\java\main started by chohe in C:\boot-workspace\ex01)
+2025-04-09T14:39:05.644+09:00 DEBUG 23452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-09T14:39:05.645+09:00  INFO 23452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T14:39:06.254+09:00  INFO 23452 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-09T14:39:06.256+09:00  INFO 23452 --- [ex01] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-09T14:39:06.256+09:00  INFO 23452 --- [ex01] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09T14:39:06.278+09:00  INFO 23452 --- [ex01] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-09T14:39:06.278+09:00  INFO 23452 --- [ex01] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 630 ms
+2025-04-09T14:39:06.715+09:00  INFO 23452 --- [ex01] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T14:39:06.725+09:00  INFO 23452 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T14:39:06.731+09:00  INFO 23452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Started Ex01Application in 1.129 seconds (process running for 982.659)
+2025-04-09T14:39:06.733+09:00  INFO 23452 --- [ex01] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-09T14:40:11.377+09:00  INFO 23452 --- [ex01] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-04-09T14:40:11.381+09:00  INFO 23452 --- [ex01] [Thread-19] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-09T14:40:11.700+09:00  INFO 23452 --- [ex01] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-09T14:40:11.803+09:00  INFO 23452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Starting Ex01Application using Java 17.0.14 with PID 23452 (C:\boot-workspace\ex01\build\classes\java\main started by chohe in C:\boot-workspace\ex01)
+2025-04-09T14:40:11.803+09:00 DEBUG 23452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-09T14:40:11.806+09:00  INFO 23452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T14:40:12.313+09:00  INFO 23452 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-09T14:40:12.315+09:00  INFO 23452 --- [ex01] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-09T14:40:12.316+09:00  INFO 23452 --- [ex01] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09T14:40:12.354+09:00  INFO 23452 --- [ex01] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-09T14:40:12.356+09:00  INFO 23452 --- [ex01] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 545 ms
+2025-04-09T14:40:12.496+09:00  INFO 23452 --- [ex01] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T14:40:12.532+09:00  INFO 23452 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T14:40:12.541+09:00  INFO 23452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Started Ex01Application in 0.777 seconds (process running for 1048.469)
+2025-04-09T14:40:12.548+09:00  INFO 23452 --- [ex01] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-09T14:40:15.959+09:00  INFO 23452 --- [ex01] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-04-09T14:40:15.960+09:00  INFO 23452 --- [ex01] [Thread-23] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-09T14:40:16.302+09:00  INFO 23452 --- [ex01] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-09T14:40:16.565+09:00  INFO 23452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Starting Ex01Application using Java 17.0.14 with PID 23452 (C:\boot-workspace\ex01\build\classes\java\main started by chohe in C:\boot-workspace\ex01)
+2025-04-09T14:40:16.566+09:00 DEBUG 23452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-09T14:40:16.566+09:00  INFO 23452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T14:40:17.283+09:00  INFO 23452 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-09T14:40:17.284+09:00  INFO 23452 --- [ex01] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-09T14:40:17.286+09:00  INFO 23452 --- [ex01] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09T14:40:17.390+09:00  INFO 23452 --- [ex01] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-09T14:40:17.392+09:00  INFO 23452 --- [ex01] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 821 ms
+2025-04-09T14:40:17.674+09:00  INFO 23452 --- [ex01] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T14:40:17.709+09:00  INFO 23452 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T14:40:17.715+09:00  INFO 23452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Started Ex01Application in 1.33 seconds (process running for 1053.643)
+2025-04-09T14:40:17.718+09:00  INFO 23452 --- [ex01] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-09T14:40:28.373+09:00  INFO 29248 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Starting Ex01Application using Java 17.0.14 with PID 29248 (C:\boot-workspace\ex01\build\classes\java\main started by chohe in C:\boot-workspace\ex01)
+2025-04-09T14:40:28.382+09:00 DEBUG 29248 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-09T14:40:28.383+09:00  INFO 29248 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T14:40:28.551+09:00  INFO 29248 --- [ex01] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-09T14:40:28.551+09:00  INFO 29248 --- [ex01] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-09T14:40:31.127+09:00  INFO 29248 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-09T14:40:31.148+09:00  INFO 29248 --- [ex01] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-09T14:40:31.148+09:00  INFO 29248 --- [ex01] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09T14:40:31.234+09:00  INFO 29248 --- [ex01] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-09T14:40:31.237+09:00  INFO 29248 --- [ex01] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2683 ms
+2025-04-09T14:40:32.390+09:00  INFO 29248 --- [ex01] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T14:40:32.448+09:00  INFO 29248 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T14:40:32.484+09:00  INFO 29248 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Started Ex01Application in 5.72 seconds (process running for 6.493)
+2025-04-09T14:40:36.442+09:00  INFO 29248 --- [ex01] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-09T14:40:36.443+09:00  INFO 29248 --- [ex01] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-09T14:40:36.447+09:00  INFO 29248 --- [ex01] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-04-09T14:40:37.551+09:00 DEBUG 29248 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 0.back
+2025-04-09T14:40:37.553+09:00 DEBUG 29248 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 1.back
+2025-04-09T14:40:37.554+09:00 DEBUG 29248 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 2.back
+2025-04-09T14:40:37.554+09:00 DEBUG 29248 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 3.back
+2025-04-09T14:40:37.554+09:00 DEBUG 29248 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 4.back
+2025-04-09T14:40:37.554+09:00 DEBUG 29248 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 5.back
+2025-04-09T14:40:37.554+09:00 DEBUG 29248 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 6.back
+2025-04-09T14:40:37.554+09:00 DEBUG 29248 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 7.back
+2025-04-09T14:40:37.555+09:00 DEBUG 29248 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 8.back
+2025-04-09T14:40:37.555+09:00 DEBUG 29248 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 9.back
+2025-04-09T14:40:37.555+09:00 DEBUG 29248 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : get list return 전달
+2025-04-09T14:40:38.640+09:00 DEBUG 29248 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 0.back
+2025-04-09T14:40:38.641+09:00 DEBUG 29248 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 1.back
+2025-04-09T14:40:38.641+09:00 DEBUG 29248 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 2.back
+2025-04-09T14:40:38.641+09:00 DEBUG 29248 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 3.back
+2025-04-09T14:40:38.641+09:00 DEBUG 29248 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 4.back
+2025-04-09T14:40:38.642+09:00 DEBUG 29248 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 5.back
+2025-04-09T14:40:38.642+09:00 DEBUG 29248 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 6.back
+2025-04-09T14:40:38.642+09:00 DEBUG 29248 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 7.back
+2025-04-09T14:40:38.642+09:00 DEBUG 29248 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 8.back
+2025-04-09T14:40:38.642+09:00 DEBUG 29248 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 9.back
+2025-04-09T14:40:38.642+09:00 DEBUG 29248 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : get list return 전달
+2025-04-09T14:41:01.893+09:00  INFO 22004 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Starting Ex01Application using Java 17.0.14 with PID 22004 (C:\boot-workspace\ex01\build\classes\java\main started by chohe in C:\boot-workspace\ex01)
+2025-04-09T14:41:01.897+09:00 DEBUG 22004 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-09T14:41:01.899+09:00  INFO 22004 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T14:41:02.039+09:00  INFO 22004 --- [ex01] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-09T14:41:02.039+09:00  INFO 22004 --- [ex01] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-09T14:41:04.349+09:00  INFO 22004 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-09T14:41:04.371+09:00  INFO 22004 --- [ex01] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-09T14:41:04.372+09:00  INFO 22004 --- [ex01] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09T14:41:04.458+09:00  INFO 22004 --- [ex01] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-09T14:41:04.458+09:00  INFO 22004 --- [ex01] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2418 ms
+2025-04-09T14:41:05.287+09:00  INFO 22004 --- [ex01] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T14:41:05.373+09:00  INFO 22004 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T14:41:05.387+09:00  INFO 22004 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Started Ex01Application in 4.441 seconds (process running for 5.064)
+2025-04-09T14:41:07.710+09:00  INFO 22004 --- [ex01] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-04-09T14:41:07.721+09:00  INFO 22004 --- [ex01] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-09T14:41:08.079+09:00  INFO 22004 --- [ex01] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-09T14:41:08.218+09:00  INFO 22004 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Starting Ex01Application using Java 17.0.14 with PID 22004 (C:\boot-workspace\ex01\build\classes\java\main started by chohe in C:\boot-workspace\ex01)
+2025-04-09T14:41:08.219+09:00 DEBUG 22004 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-09T14:41:08.219+09:00  INFO 22004 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T14:41:08.866+09:00  INFO 22004 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-09T14:41:08.868+09:00  INFO 22004 --- [ex01] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-09T14:41:08.870+09:00  INFO 22004 --- [ex01] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09T14:41:08.928+09:00  INFO 22004 --- [ex01] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-09T14:41:08.929+09:00  INFO 22004 --- [ex01] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 706 ms
+2025-04-09T14:41:09.147+09:00  INFO 22004 --- [ex01] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T14:41:09.198+09:00  INFO 22004 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T14:41:09.205+09:00  INFO 22004 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Started Ex01Application in 1.059 seconds (process running for 8.882)
+2025-04-09T14:41:09.208+09:00  INFO 22004 --- [ex01] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-09T14:41:13.685+09:00  INFO 22004 --- [ex01] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-04-09T14:41:13.688+09:00  INFO 22004 --- [ex01] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-09T14:41:14.274+09:00  INFO 22004 --- [ex01] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-09T14:41:14.491+09:00  INFO 22004 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Starting Ex01Application using Java 17.0.14 with PID 22004 (C:\boot-workspace\ex01\build\classes\java\main started by chohe in C:\boot-workspace\ex01)
+2025-04-09T14:41:14.492+09:00 DEBUG 22004 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-09T14:41:14.492+09:00  INFO 22004 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T14:41:15.427+09:00  INFO 22004 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-09T14:41:15.429+09:00  INFO 22004 --- [ex01] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-09T14:41:15.433+09:00  INFO 22004 --- [ex01] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09T14:41:15.524+09:00  INFO 22004 --- [ex01] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-09T14:41:15.524+09:00  INFO 22004 --- [ex01] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1026 ms
+2025-04-09T14:41:15.809+09:00  INFO 22004 --- [ex01] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T14:41:15.961+09:00  INFO 22004 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T14:41:15.968+09:00  INFO 22004 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Started Ex01Application in 1.593 seconds (process running for 15.645)
+2025-04-09T14:41:15.971+09:00  INFO 22004 --- [ex01] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-09T14:41:21.972+09:00  INFO 22004 --- [ex01] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-09T14:41:21.972+09:00  INFO 22004 --- [ex01] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-09T14:41:21.973+09:00  INFO 22004 --- [ex01] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-04-09T14:41:22.070+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 0.back
+2025-04-09T14:41:23.074+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 1.back
+2025-04-09T14:41:24.077+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 2.back
+2025-04-09T14:41:25.080+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 3.back
+2025-04-09T14:41:26.081+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 4.back
+2025-04-09T14:41:27.083+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 5.back
+2025-04-09T14:41:28.085+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 6.back
+2025-04-09T14:41:29.086+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 7.back
+2025-04-09T14:41:30.088+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 8.back
+2025-04-09T14:41:31.089+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 9.back
+2025-04-09T14:41:32.089+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : get list return 전달
+2025-04-09T14:41:32.177+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-2] c.e.ex01.controller.MemberController     : 0.back
+2025-04-09T14:41:33.180+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-2] c.e.ex01.controller.MemberController     : 1.back
+2025-04-09T14:41:34.182+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-2] c.e.ex01.controller.MemberController     : 2.back
+2025-04-09T14:41:35.184+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-2] c.e.ex01.controller.MemberController     : 3.back
+2025-04-09T14:41:36.222+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-2] c.e.ex01.controller.MemberController     : 4.back
+2025-04-09T14:41:37.224+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-2] c.e.ex01.controller.MemberController     : 5.back
+2025-04-09T14:41:38.227+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-2] c.e.ex01.controller.MemberController     : 6.back
+2025-04-09T14:41:39.239+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-2] c.e.ex01.controller.MemberController     : 7.back
+2025-04-09T14:41:40.241+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-2] c.e.ex01.controller.MemberController     : 8.back
+2025-04-09T14:41:41.242+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-2] c.e.ex01.controller.MemberController     : 9.back
+2025-04-09T14:41:42.242+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-2] c.e.ex01.controller.MemberController     : get list return 전달
+2025-04-09T14:42:48.629+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-5] c.e.ex01.controller.MemberController     : 0.back
+2025-04-09T14:42:49.630+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-5] c.e.ex01.controller.MemberController     : 1.back
+2025-04-09T14:42:50.632+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-5] c.e.ex01.controller.MemberController     : 2.back
+2025-04-09T14:42:51.635+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-5] c.e.ex01.controller.MemberController     : 3.back
+2025-04-09T14:42:52.635+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-5] c.e.ex01.controller.MemberController     : 4.back
+2025-04-09T14:42:53.636+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-5] c.e.ex01.controller.MemberController     : 5.back
+2025-04-09T14:42:54.637+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-5] c.e.ex01.controller.MemberController     : 6.back
+2025-04-09T14:42:55.640+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-5] c.e.ex01.controller.MemberController     : 7.back
+2025-04-09T14:42:56.642+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-5] c.e.ex01.controller.MemberController     : 8.back
+2025-04-09T14:42:57.644+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-5] c.e.ex01.controller.MemberController     : 9.back
+2025-04-09T14:42:58.645+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-5] c.e.ex01.controller.MemberController     : get list return 전달
+2025-04-09T14:42:58.651+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-6] c.e.ex01.controller.MemberController     : 0.back
+2025-04-09T14:42:59.653+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-6] c.e.ex01.controller.MemberController     : 1.back
+2025-04-09T14:43:00.655+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-6] c.e.ex01.controller.MemberController     : 2.back
+2025-04-09T14:43:01.656+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-6] c.e.ex01.controller.MemberController     : 3.back
+2025-04-09T14:43:02.658+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-6] c.e.ex01.controller.MemberController     : 4.back
+2025-04-09T14:43:03.661+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-6] c.e.ex01.controller.MemberController     : 5.back
+2025-04-09T14:43:04.662+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-6] c.e.ex01.controller.MemberController     : 6.back
+2025-04-09T14:43:05.663+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-6] c.e.ex01.controller.MemberController     : 7.back
+2025-04-09T14:43:06.665+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-6] c.e.ex01.controller.MemberController     : 8.back
+2025-04-09T14:43:07.667+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-6] c.e.ex01.controller.MemberController     : 9.back
+2025-04-09T14:43:08.668+09:00 DEBUG 22004 --- [ex01] [http-nio-8080-exec-6] c.e.ex01.controller.MemberController     : get list return 전달
+2025-04-09T14:44:57.421+09:00  INFO 29452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Starting Ex01Application using Java 17.0.14 with PID 29452 (C:\boot-workspace\ex01\build\classes\java\main started by chohe in C:\boot-workspace\ex01)
+2025-04-09T14:44:57.425+09:00 DEBUG 29452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-09T14:44:57.428+09:00  INFO 29452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T14:44:57.529+09:00  INFO 29452 --- [ex01] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-09T14:44:57.530+09:00  INFO 29452 --- [ex01] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-09T14:45:00.041+09:00  INFO 29452 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-09T14:45:00.061+09:00  INFO 29452 --- [ex01] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-09T14:45:00.062+09:00  INFO 29452 --- [ex01] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09T14:45:00.145+09:00  INFO 29452 --- [ex01] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-09T14:45:00.146+09:00  INFO 29452 --- [ex01] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2615 ms
+2025-04-09T14:45:01.256+09:00  INFO 29452 --- [ex01] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T14:45:01.310+09:00  INFO 29452 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T14:45:01.322+09:00  INFO 29452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Started Ex01Application in 4.837 seconds (process running for 5.484)
+2025-04-09T14:45:03.688+09:00  INFO 29452 --- [ex01] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-04-09T14:45:03.692+09:00  INFO 29452 --- [ex01] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-09T14:45:04.021+09:00  INFO 29452 --- [ex01] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-09T14:45:04.170+09:00  INFO 29452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Starting Ex01Application using Java 17.0.14 with PID 29452 (C:\boot-workspace\ex01\build\classes\java\main started by chohe in C:\boot-workspace\ex01)
+2025-04-09T14:45:04.170+09:00 DEBUG 29452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-09T14:45:04.170+09:00  INFO 29452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T14:45:04.995+09:00  INFO 29452 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-09T14:45:04.998+09:00  INFO 29452 --- [ex01] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-09T14:45:05.000+09:00  INFO 29452 --- [ex01] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09T14:45:05.049+09:00  INFO 29452 --- [ex01] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-09T14:45:05.049+09:00  INFO 29452 --- [ex01] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 871 ms
+2025-04-09T14:45:05.253+09:00  INFO 29452 --- [ex01] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T14:45:05.282+09:00  INFO 29452 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T14:45:05.285+09:00  INFO 29452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Started Ex01Application in 1.186 seconds (process running for 9.447)
+2025-04-09T14:45:05.289+09:00  INFO 29452 --- [ex01] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-09T14:45:09.706+09:00  INFO 29452 --- [ex01] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-04-09T14:45:09.713+09:00  INFO 29452 --- [ex01] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-09T14:45:10.259+09:00  INFO 29452 --- [ex01] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-09T14:45:10.397+09:00  INFO 29452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Starting Ex01Application using Java 17.0.14 with PID 29452 (C:\boot-workspace\ex01\build\classes\java\main started by chohe in C:\boot-workspace\ex01)
+2025-04-09T14:45:10.398+09:00 DEBUG 29452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-09T14:45:10.398+09:00  INFO 29452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T14:45:11.127+09:00  INFO 29452 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-09T14:45:11.128+09:00  INFO 29452 --- [ex01] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-09T14:45:11.129+09:00  INFO 29452 --- [ex01] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09T14:45:11.155+09:00  INFO 29452 --- [ex01] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-09T14:45:11.155+09:00  INFO 29452 --- [ex01] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 752 ms
+2025-04-09T14:45:11.365+09:00  INFO 29452 --- [ex01] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T14:45:11.470+09:00  INFO 29452 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T14:45:11.474+09:00  INFO 29452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Started Ex01Application in 1.144 seconds (process running for 15.635)
+2025-04-09T14:45:11.478+09:00  INFO 29452 --- [ex01] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-09T14:45:45.163+09:00  INFO 29452 --- [ex01] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-09T14:45:45.163+09:00  INFO 29452 --- [ex01] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-09T14:45:45.164+09:00  INFO 29452 --- [ex01] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-04-09T14:45:45.248+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 0.back
+2025-04-09T14:45:46.254+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 1.back
+2025-04-09T14:45:47.256+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 2.back
+2025-04-09T14:45:47.939+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-2] c.e.ex01.controller.MemberController     : 0.back
+2025-04-09T14:45:48.201+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-3] c.e.ex01.controller.MemberController     : 0.back
+2025-04-09T14:45:48.257+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 3.back
+2025-04-09T14:45:48.498+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-4] c.e.ex01.controller.MemberController     : 0.back
+2025-04-09T14:45:48.810+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-5] c.e.ex01.controller.MemberController     : 0.back
+2025-04-09T14:45:48.942+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-2] c.e.ex01.controller.MemberController     : 1.back
+2025-04-09T14:45:49.196+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-7] c.e.ex01.controller.MemberController     : 0.back
+2025-04-09T14:45:49.202+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-3] c.e.ex01.controller.MemberController     : 1.back
+2025-04-09T14:45:49.258+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 4.back
+2025-04-09T14:45:49.499+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-4] c.e.ex01.controller.MemberController     : 1.back
+2025-04-09T14:45:49.577+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-6] c.e.ex01.controller.MemberController     : 0.back
+2025-04-09T14:45:49.813+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-5] c.e.ex01.controller.MemberController     : 1.back
+2025-04-09T14:45:49.945+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-2] c.e.ex01.controller.MemberController     : 2.back
+2025-04-09T14:45:49.964+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-8] c.e.ex01.controller.MemberController     : 0.back
+2025-04-09T14:45:50.198+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-7] c.e.ex01.controller.MemberController     : 1.back
+2025-04-09T14:45:50.204+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-3] c.e.ex01.controller.MemberController     : 2.back
+2025-04-09T14:45:50.260+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : get list return 전달
+2025-04-09T14:45:50.398+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-9] c.e.ex01.controller.MemberController     : 0.back
+2025-04-09T14:45:50.500+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-4] c.e.ex01.controller.MemberController     : 2.back
+2025-04-09T14:45:50.580+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-6] c.e.ex01.controller.MemberController     : 1.back
+2025-04-09T14:45:50.621+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-10] c.e.ex01.controller.MemberController     : 0.back
+2025-04-09T14:45:50.815+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-5] c.e.ex01.controller.MemberController     : 2.back
+2025-04-09T14:45:50.898+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 0.back
+2025-04-09T14:45:50.967+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-2] c.e.ex01.controller.MemberController     : 3.back
+2025-04-09T14:45:50.971+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-8] c.e.ex01.controller.MemberController     : 1.back
+2025-04-09T14:45:50.984+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-11] c.e.ex01.controller.MemberController     : 0.back
+2025-04-09T14:45:51.199+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-7] c.e.ex01.controller.MemberController     : 2.back
+2025-04-09T14:45:51.205+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-3] c.e.ex01.controller.MemberController     : 3.back
+2025-04-09T14:45:51.372+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-12] c.e.ex01.controller.MemberController     : 0.back
+2025-04-09T14:45:51.399+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-9] c.e.ex01.controller.MemberController     : 1.back
+2025-04-09T14:45:51.502+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-4] c.e.ex01.controller.MemberController     : 3.back
+2025-04-09T14:45:51.583+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-6] c.e.ex01.controller.MemberController     : 2.back
+2025-04-09T14:45:51.623+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-10] c.e.ex01.controller.MemberController     : 1.back
+2025-04-09T14:45:51.768+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-13] c.e.ex01.controller.MemberController     : 0.back
+2025-04-09T14:45:51.816+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-5] c.e.ex01.controller.MemberController     : 3.back
+2025-04-09T14:45:51.900+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 1.back
+2025-04-09T14:45:51.970+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-2] c.e.ex01.controller.MemberController     : 4.back
+2025-04-09T14:45:51.974+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-8] c.e.ex01.controller.MemberController     : 2.back
+2025-04-09T14:45:51.989+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-11] c.e.ex01.controller.MemberController     : 1.back
+2025-04-09T14:45:52.169+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-14] c.e.ex01.controller.MemberController     : 0.back
+2025-04-09T14:45:52.200+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-7] c.e.ex01.controller.MemberController     : 3.back
+2025-04-09T14:45:52.206+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-3] c.e.ex01.controller.MemberController     : 4.back
+2025-04-09T14:45:52.374+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-12] c.e.ex01.controller.MemberController     : 1.back
+2025-04-09T14:45:52.404+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-9] c.e.ex01.controller.MemberController     : 2.back
+2025-04-09T14:45:52.503+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-4] c.e.ex01.controller.MemberController     : 4.back
+2025-04-09T14:45:52.596+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-6] c.e.ex01.controller.MemberController     : 3.back
+2025-04-09T14:45:52.603+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-15] c.e.ex01.controller.MemberController     : 0.back
+2025-04-09T14:45:52.627+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-10] c.e.ex01.controller.MemberController     : 2.back
+2025-04-09T14:45:52.771+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-13] c.e.ex01.controller.MemberController     : 1.back
+2025-04-09T14:45:52.818+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-5] c.e.ex01.controller.MemberController     : 4.back
+2025-04-09T14:45:52.901+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 2.back
+2025-04-09T14:45:52.904+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-16] c.e.ex01.controller.MemberController     : 0.back
+2025-04-09T14:45:52.971+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-2] c.e.ex01.controller.MemberController     : get list return 전달
+2025-04-09T14:45:52.976+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-8] c.e.ex01.controller.MemberController     : 3.back
+2025-04-09T14:45:52.990+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-11] c.e.ex01.controller.MemberController     : 2.back
+2025-04-09T14:45:53.171+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-14] c.e.ex01.controller.MemberController     : 1.back
+2025-04-09T14:45:53.202+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-7] c.e.ex01.controller.MemberController     : 4.back
+2025-04-09T14:45:53.212+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-3] c.e.ex01.controller.MemberController     : get list return 전달
+2025-04-09T14:45:53.346+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-2] c.e.ex01.controller.MemberController     : 0.back
+2025-04-09T14:45:53.376+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-12] c.e.ex01.controller.MemberController     : 2.back
+2025-04-09T14:45:53.406+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-9] c.e.ex01.controller.MemberController     : 3.back
+2025-04-09T14:45:53.507+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-4] c.e.ex01.controller.MemberController     : get list return 전달
+2025-04-09T14:45:53.600+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-6] c.e.ex01.controller.MemberController     : 4.back
+2025-04-09T14:45:53.607+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-15] c.e.ex01.controller.MemberController     : 1.back
+2025-04-09T14:45:53.628+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-10] c.e.ex01.controller.MemberController     : 3.back
+2025-04-09T14:45:53.763+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-3] c.e.ex01.controller.MemberController     : 0.back
+2025-04-09T14:45:53.776+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-13] c.e.ex01.controller.MemberController     : 2.back
+2025-04-09T14:45:53.819+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-5] c.e.ex01.controller.MemberController     : get list return 전달
+2025-04-09T14:45:53.905+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 3.back
+2025-04-09T14:45:53.906+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-16] c.e.ex01.controller.MemberController     : 1.back
+2025-04-09T14:45:53.977+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-8] c.e.ex01.controller.MemberController     : 4.back
+2025-04-09T14:45:53.993+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-11] c.e.ex01.controller.MemberController     : 3.back
+2025-04-09T14:45:54.128+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-4] c.e.ex01.controller.MemberController     : 0.back
+2025-04-09T14:45:54.172+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-14] c.e.ex01.controller.MemberController     : 2.back
+2025-04-09T14:45:54.205+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-7] c.e.ex01.controller.MemberController     : get list return 전달
+2025-04-09T14:45:54.346+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-2] c.e.ex01.controller.MemberController     : 1.back
+2025-04-09T14:45:54.377+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-12] c.e.ex01.controller.MemberController     : 3.back
+2025-04-09T14:45:54.409+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-9] c.e.ex01.controller.MemberController     : 4.back
+2025-04-09T14:45:54.601+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-6] c.e.ex01.controller.MemberController     : get list return 전달
+2025-04-09T14:45:54.608+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-15] c.e.ex01.controller.MemberController     : 2.back
+2025-04-09T14:45:54.629+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-10] c.e.ex01.controller.MemberController     : 4.back
+2025-04-09T14:45:54.765+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-3] c.e.ex01.controller.MemberController     : 1.back
+2025-04-09T14:45:54.778+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-13] c.e.ex01.controller.MemberController     : 3.back
+2025-04-09T14:45:54.907+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : 4.back
+2025-04-09T14:45:54.908+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-16] c.e.ex01.controller.MemberController     : 2.back
+2025-04-09T14:45:54.979+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-8] c.e.ex01.controller.MemberController     : get list return 전달
+2025-04-09T14:45:54.994+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-11] c.e.ex01.controller.MemberController     : 4.back
+2025-04-09T14:45:55.129+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-4] c.e.ex01.controller.MemberController     : 1.back
+2025-04-09T14:45:55.174+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-14] c.e.ex01.controller.MemberController     : 3.back
+2025-04-09T14:45:55.348+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-2] c.e.ex01.controller.MemberController     : 2.back
+2025-04-09T14:45:55.378+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-12] c.e.ex01.controller.MemberController     : 4.back
+2025-04-09T14:45:55.409+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-9] c.e.ex01.controller.MemberController     : get list return 전달
+2025-04-09T14:45:55.608+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-15] c.e.ex01.controller.MemberController     : 3.back
+2025-04-09T14:45:55.630+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-10] c.e.ex01.controller.MemberController     : get list return 전달
+2025-04-09T14:45:55.767+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-3] c.e.ex01.controller.MemberController     : 2.back
+2025-04-09T14:45:55.779+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-13] c.e.ex01.controller.MemberController     : 4.back
+2025-04-09T14:45:55.910+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : get list return 전달
+2025-04-09T14:45:55.914+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-16] c.e.ex01.controller.MemberController     : 3.back
+2025-04-09T14:45:55.997+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-11] c.e.ex01.controller.MemberController     : get list return 전달
+2025-04-09T14:45:56.131+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-4] c.e.ex01.controller.MemberController     : 2.back
+2025-04-09T14:45:56.174+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-14] c.e.ex01.controller.MemberController     : 4.back
+2025-04-09T14:45:56.349+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-2] c.e.ex01.controller.MemberController     : 3.back
+2025-04-09T14:45:56.378+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-12] c.e.ex01.controller.MemberController     : get list return 전달
+2025-04-09T14:45:56.609+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-15] c.e.ex01.controller.MemberController     : 4.back
+2025-04-09T14:45:56.769+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-3] c.e.ex01.controller.MemberController     : 3.back
+2025-04-09T14:45:56.781+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-13] c.e.ex01.controller.MemberController     : get list return 전달
+2025-04-09T14:45:56.916+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-16] c.e.ex01.controller.MemberController     : 4.back
+2025-04-09T14:45:57.133+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-4] c.e.ex01.controller.MemberController     : 3.back
+2025-04-09T14:45:57.177+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-14] c.e.ex01.controller.MemberController     : get list return 전달
+2025-04-09T14:45:57.349+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-2] c.e.ex01.controller.MemberController     : 4.back
+2025-04-09T14:45:57.612+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-15] c.e.ex01.controller.MemberController     : get list return 전달
+2025-04-09T14:45:57.770+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-3] c.e.ex01.controller.MemberController     : 4.back
+2025-04-09T14:45:57.916+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-16] c.e.ex01.controller.MemberController     : get list return 전달
+2025-04-09T14:45:58.134+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-4] c.e.ex01.controller.MemberController     : 4.back
+2025-04-09T14:45:58.351+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-2] c.e.ex01.controller.MemberController     : get list return 전달
+2025-04-09T14:45:58.772+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-3] c.e.ex01.controller.MemberController     : get list return 전달
+2025-04-09T14:45:59.136+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-4] c.e.ex01.controller.MemberController     : get list return 전달
+2025-04-09T14:45:59.142+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-5] c.e.ex01.controller.MemberController     : 0.back
+2025-04-09T14:46:00.144+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-5] c.e.ex01.controller.MemberController     : 1.back
+2025-04-09T14:46:01.145+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-5] c.e.ex01.controller.MemberController     : 2.back
+2025-04-09T14:46:02.147+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-5] c.e.ex01.controller.MemberController     : 3.back
+2025-04-09T14:46:03.148+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-5] c.e.ex01.controller.MemberController     : 4.back
+2025-04-09T14:46:04.148+09:00 DEBUG 29452 --- [ex01] [http-nio-8080-exec-5] c.e.ex01.controller.MemberController     : get list return 전달
+2025-04-09T14:46:35.693+09:00  INFO 29452 --- [ex01] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-04-09T14:46:35.694+09:00  INFO 29452 --- [ex01] [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-09T14:46:36.000+09:00  INFO 29452 --- [ex01] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-09T14:46:36.149+09:00  INFO 29452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Starting Ex01Application using Java 17.0.14 with PID 29452 (C:\boot-workspace\ex01\build\classes\java\main started by chohe in C:\boot-workspace\ex01)
+2025-04-09T14:46:36.149+09:00 DEBUG 29452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-09T14:46:36.150+09:00  INFO 29452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T14:46:36.694+09:00  INFO 29452 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-09T14:46:36.698+09:00  INFO 29452 --- [ex01] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-09T14:46:36.698+09:00  INFO 29452 --- [ex01] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09T14:46:36.737+09:00  INFO 29452 --- [ex01] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-09T14:46:36.738+09:00  INFO 29452 --- [ex01] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 580 ms
+2025-04-09T14:46:36.892+09:00  INFO 29452 --- [ex01] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T14:46:36.951+09:00  INFO 29452 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T14:46:36.971+09:00  INFO 29452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Started Ex01Application in 0.903 seconds (process running for 101.132)
+2025-04-09T14:46:36.977+09:00  INFO 29452 --- [ex01] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-09T14:46:40.386+09:00  INFO 29452 --- [ex01] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-04-09T14:46:40.387+09:00  INFO 29452 --- [ex01] [Thread-15] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-09T14:46:41.056+09:00  INFO 29452 --- [ex01] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-09T14:46:41.207+09:00  INFO 29452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Starting Ex01Application using Java 17.0.14 with PID 29452 (C:\boot-workspace\ex01\build\classes\java\main started by chohe in C:\boot-workspace\ex01)
+2025-04-09T14:46:41.207+09:00 DEBUG 29452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-09T14:46:41.209+09:00  INFO 29452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T14:46:42.006+09:00  INFO 29452 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-09T14:46:42.007+09:00  INFO 29452 --- [ex01] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-09T14:46:42.007+09:00  INFO 29452 --- [ex01] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09T14:46:42.047+09:00  INFO 29452 --- [ex01] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-09T14:46:42.047+09:00  INFO 29452 --- [ex01] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 832 ms
+2025-04-09T14:46:42.141+09:00  INFO 29452 --- [ex01] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T14:46:42.181+09:00  INFO 29452 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T14:46:42.185+09:00  INFO 29452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Started Ex01Application in 1.049 seconds (process running for 106.346)
+2025-04-09T14:46:42.186+09:00  INFO 29452 --- [ex01] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-09T14:49:09.138+09:00  INFO 29452 --- [ex01] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-09T14:49:09.139+09:00  INFO 29452 --- [ex01] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-09T14:49:09.139+09:00  INFO 29452 --- [ex01] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-04-09T14:54:42.739+09:00  INFO 29452 --- [ex01] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-04-09T14:54:42.741+09:00  INFO 29452 --- [ex01] [Thread-19] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-09T14:54:43.077+09:00  INFO 29452 --- [ex01] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-09T14:54:43.196+09:00  INFO 29452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Starting Ex01Application using Java 17.0.14 with PID 29452 (C:\boot-workspace\ex01\build\classes\java\main started by chohe in C:\boot-workspace\ex01)
+2025-04-09T14:54:43.196+09:00 DEBUG 29452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-09T14:54:43.196+09:00  INFO 29452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T14:54:43.621+09:00  INFO 29452 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-09T14:54:43.624+09:00  INFO 29452 --- [ex01] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-09T14:54:43.627+09:00  INFO 29452 --- [ex01] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09T14:54:43.653+09:00  INFO 29452 --- [ex01] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-09T14:54:43.653+09:00  INFO 29452 --- [ex01] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 454 ms
+2025-04-09T14:54:43.730+09:00  INFO 29452 --- [ex01] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T14:54:43.747+09:00  INFO 29452 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T14:54:43.749+09:00  INFO 29452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Started Ex01Application in 0.596 seconds (process running for 587.91)
+2025-04-09T14:54:43.750+09:00  INFO 29452 --- [ex01] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-09T14:54:47.183+09:00  INFO 29452 --- [ex01] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-04-09T14:54:47.184+09:00  INFO 29452 --- [ex01] [Thread-23] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-09T14:54:47.475+09:00  INFO 29452 --- [ex01] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-09T14:54:47.573+09:00  INFO 29452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Starting Ex01Application using Java 17.0.14 with PID 29452 (C:\boot-workspace\ex01\build\classes\java\main started by chohe in C:\boot-workspace\ex01)
+2025-04-09T14:54:47.574+09:00 DEBUG 29452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-09T14:54:47.574+09:00  INFO 29452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T14:54:47.866+09:00  INFO 29452 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-09T14:54:47.867+09:00  INFO 29452 --- [ex01] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-09T14:54:47.868+09:00  INFO 29452 --- [ex01] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09T14:54:47.891+09:00  INFO 29452 --- [ex01] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-09T14:54:47.892+09:00  INFO 29452 --- [ex01] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 316 ms
+2025-04-09T14:54:47.964+09:00  INFO 29452 --- [ex01] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T14:54:47.971+09:00  INFO 29452 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T14:54:47.973+09:00  INFO 29452 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Started Ex01Application in 0.433 seconds (process running for 592.134)
+2025-04-09T14:54:47.974+09:00  INFO 29452 --- [ex01] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
