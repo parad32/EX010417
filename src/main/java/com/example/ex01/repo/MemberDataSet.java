@@ -45,6 +45,19 @@ public class MemberDataSet {
         }
         return 0;
     }
+    public int login(String username,String password){
+        int result = -1 ;
+        for(MemberDTO d : DB){
+            if( d.getUsername().equals(username) ){
+                result = 1;
+                if( d.getPassword().equals(password) ){
+                    result = 0;
+                }
+                break;
+            }
+        }
+        return result;
+    }
 }
 
 

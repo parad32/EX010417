@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.lang.reflect.Member;
 import java.util.ArrayList;
+import java.util.Map;
 
 @RestController
 @Slf4j
@@ -94,6 +95,16 @@ public class MemberController {
         int result = ms.mDelete(id);
         if(result == 1)
             return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
+        return ResponseEntity.status(HttpStatus.NOT_FOUND).body("id없음");
+    }
+    @PostMapping("/mem/login")
+    public ResponseEntity login(@RequestBody Map<String, String> map){//@RequestBody MemberDTO dto){
+        log.debug("login map : {}", map);
+        int result = ms.login( map.get("username"), map.get("password") );
+        if( result == 0 )
+            return ResponseEntity.status(HttpStatus.OK).body("성공");
+        else if( result == 1)
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("비번틀림");
         return ResponseEntity.status(HttpStatus.NOT_FOUND).body("id없음");
     }
 }
