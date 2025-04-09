@@ -3320,3 +3320,15 @@ Caused by: java.lang.ClassNotFoundException: com.example.ex01.service.MemberServ
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
 	... 29 common frames omitted
 
+2025-04-09T16:05:12.955+09:00  INFO 1456 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Starting Ex01Application using Java 17.0.14 with PID 1456 (C:\boot-workspace\ex01\build\classes\java\main started by chohe in C:\boot-workspace\ex01)
+2025-04-09T16:05:12.956+09:00 DEBUG 1456 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-09T16:05:12.957+09:00  INFO 1456 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T16:05:13.520+09:00  INFO 1456 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-09T16:05:13.525+09:00  INFO 1456 --- [ex01] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-09T16:05:13.525+09:00  INFO 1456 --- [ex01] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09T16:05:13.565+09:00  INFO 1456 --- [ex01] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-04-09T16:05:13.566+09:00  INFO 1456 --- [ex01] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 604 ms
+2025-04-09T16:05:13.752+09:00  INFO 1456 --- [ex01] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T16:05:13.766+09:00  INFO 1456 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T16:05:13.772+09:00  INFO 1456 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Started Ex01Application in 0.874 seconds (process running for 100.846)
+2025-04-09T16:05:13.786+09:00  INFO 1456 --- [ex01] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
