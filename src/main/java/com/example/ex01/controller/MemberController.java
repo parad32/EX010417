@@ -97,10 +97,21 @@ public class MemberController {
             return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
         return ResponseEntity.status(HttpStatus.NOT_FOUND).body("id없음");
     }
-    @PostMapping("/mem/login")
-    public ResponseEntity login(@RequestBody Map<String, String> map){//@RequestBody MemberDTO dto){
+    @PostMapping("/mem/login2")
+    public ResponseEntity login2(@RequestBody Map<String, String> map){//@RequestBody MemberDTO dto){
         log.debug("login map : {}", map);
         int result = ms.login( map.get("username"), map.get("password") );
+        if( result == 0 )
+            return ResponseEntity.status(HttpStatus.OK).body("성공");
+        else if( result == 1)
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("비번틀림");
+        return ResponseEntity.status(HttpStatus.NOT_FOUND).body("id없음");
+    }
+    @PostMapping("/mem/login")
+    //@RequestParam String username, password
+    public ResponseEntity login( @ModelAttribute MemberDTO dto ){
+        log.debug("login dto : {}", dto);
+        int result = ms.login( dto.getUsername(), dto.getPassword() );
         if( result == 0 )
             return ResponseEntity.status(HttpStatus.OK).body("성공");
         else if( result == 1)
