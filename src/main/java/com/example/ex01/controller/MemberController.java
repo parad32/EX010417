@@ -1,16 +1,24 @@
 package com.example.ex01.controller;
 
 import com.example.ex01.dto.MemberDTO;
+import com.example.ex01.service.MemberService;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpOutputMessage;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.lang.reflect.Member;
 import java.util.ArrayList;
 
 @RestController
 @Slf4j
+@RequiredArgsConstructor
 public class MemberController {
+    private final MemberService ms;
+
     @GetMapping("/")
     public void testLog(){
         log.debug("debug execute");
@@ -42,5 +50,57 @@ public class MemberController {
         log.debug("dto 확인 {}",dto);
         return ResponseEntity.status(HttpStatus.CREATED).body("저장 성공");
     }
+    @PutMapping("/members/{id}")
+    public ResponseEntity memberUpdate(@PathVariable String id,
+                                       @RequestBody MemberDTO dto){
+        log.info("modify id : {}",id);
+        log.info("modify dto : {}",dto);
+        //return ResponseEntity.noContent().build();
+        return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
+    }
+    @DeleteMapping("/members/{id}")
+    public ResponseEntity memberDelete(@PathVariable String id){
+        log.debug("삭제 : {}",id);
+        return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
+    }
+
+    @PostMapping("/mem")
+    public ResponseEntity insert(@RequestBody MemberDTO dto){
+        log.debug("insert : {}", dto);
+        int result = ms.insert( dto );
+        if( result == 1 )
+            return ResponseEntity.status(HttpStatus.CREATED).body("추가 성공");
+        return ResponseEntity.status(HttpStatus.CONFLICT).body("존재하는 id 임");
+    }
+    @GetMapping("/mem")
+    public ResponseEntity getList(){
+        return ResponseEntity.status(HttpStatus.OK).body( ms.getList());
+    }
+    @PutMapping("/mem/{id}")
+    public ResponseEntity update1(@PathVariable("id") String id,
+                                  @RequestBody MemberDTO dto){
+        log.debug("modify : {} ", dto);
+        log.debug("modify : {} ", id);
+
+        int result = ms.update(dto, id);
+        if(result == 1 )
+            return ResponseEntity.status(HttpStatus.OK).body("성공");
+        else if(result == 0 )
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("없음");
+        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("필수");
+    }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
