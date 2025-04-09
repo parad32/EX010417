@@ -2142,3 +2142,150 @@ java.lang.IllegalArgumentException: Name for argument of type [java.lang.String]
 2025-04-09T12:18:16.075+09:00 DEBUG 2224 --- [ex01] [http-nio-8080-exec-2] c.e.ex01.controller.MemberController     : modify : aaa 
 2025-04-09T12:18:22.393+09:00 DEBUG 2224 --- [ex01] [http-nio-8080-exec-3] c.e.ex01.controller.MemberController     : modify : MemberDTO(username=aaa, password=aaa, role=null) 
 2025-04-09T12:18:22.393+09:00 DEBUG 2224 --- [ex01] [http-nio-8080-exec-3] c.e.ex01.controller.MemberController     : modify : aaa 
+2025-04-09T12:39:41.032+09:00  INFO 9304 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Starting Ex01Application using Java 17.0.14 with PID 9304 (C:\boot-workspace\ex01\build\classes\java\main started by chohe in C:\boot-workspace\ex01)
+2025-04-09T12:39:41.036+09:00 DEBUG 9304 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-09T12:39:41.037+09:00  INFO 9304 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T12:39:41.123+09:00  INFO 9304 --- [ex01] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-09T12:39:41.123+09:00  INFO 9304 --- [ex01] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-09T12:39:42.783+09:00  INFO 9304 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-09T12:39:42.803+09:00  INFO 9304 --- [ex01] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-09T12:39:42.803+09:00  INFO 9304 --- [ex01] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09T12:39:42.860+09:00  INFO 9304 --- [ex01] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-09T12:39:42.862+09:00  INFO 9304 --- [ex01] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1738 ms
+2025-04-09T12:39:43.516+09:00  INFO 9304 --- [ex01] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T12:39:43.581+09:00  INFO 9304 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T12:39:43.601+09:00  INFO 9304 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Started Ex01Application in 3.401 seconds (process running for 4.23)
+2025-04-09T12:40:30.226+09:00  INFO 9304 --- [ex01] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-09T12:40:30.228+09:00  INFO 9304 --- [ex01] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-09T12:40:30.230+09:00  INFO 9304 --- [ex01] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-04-09T12:40:30.411+09:00 DEBUG 9304 --- [ex01] [http-nio-8080-exec-1] c.e.ex01.controller.MemberController     : insert : MemberDTO(username=aaa, password=aaa, role=USER)
+2025-04-09T12:40:51.565+09:00 DEBUG 9304 --- [ex01] [http-nio-8080-exec-4] c.e.ex01.controller.MemberController     : 삭제 : aaa111
+2025-04-09T12:41:01.549+09:00 DEBUG 9304 --- [ex01] [http-nio-8080-exec-5] c.e.ex01.controller.MemberController     : 삭제 : aaa
+2025-04-09T12:41:06.834+09:00 DEBUG 9304 --- [ex01] [http-nio-8080-exec-6] c.e.ex01.controller.MemberController     : 삭제 : aaa111
+2025-04-09T12:43:42.134+09:00  INFO 9304 --- [ex01] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-04-09T12:43:42.138+09:00  INFO 9304 --- [ex01] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-09T12:43:42.432+09:00  INFO 9304 --- [ex01] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-09T12:43:42.542+09:00  INFO 9304 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Starting Ex01Application using Java 17.0.14 with PID 9304 (C:\boot-workspace\ex01\build\classes\java\main started by chohe in C:\boot-workspace\ex01)
+2025-04-09T12:43:42.542+09:00 DEBUG 9304 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-09T12:43:42.542+09:00  INFO 9304 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T12:43:43.121+09:00  INFO 9304 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-09T12:43:43.122+09:00  INFO 9304 --- [ex01] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-09T12:43:43.123+09:00  INFO 9304 --- [ex01] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09T12:43:43.243+09:00  INFO 9304 --- [ex01] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-09T12:43:43.247+09:00  INFO 9304 --- [ex01] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 701 ms
+2025-04-09T12:43:43.312+09:00  WARN 9304 --- [ex01] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberController' defined in file [C:\boot-workspace\ex01\build\classes\java\main\com\example\ex01\controller\MemberController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'memberService' defined in file [C:\boot-workspace\ex01\build\classes\java\main\com\example\ex01\service\MemberService.class]: Post-processing of merged bean definition failed
+2025-04-09T12:43:43.313+09:00  INFO 9304 --- [ex01] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-04-09T12:43:43.351+09:00  INFO 9304 --- [ex01] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-09T12:43:43.439+09:00 ERROR 9304 --- [ex01] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberController' defined in file [C:\boot-workspace\ex01\build\classes\java\main\com\example\ex01\controller\MemberController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'memberService' defined in file [C:\boot-workspace\ex01\build\classes\java\main\com\example\ex01\service\MemberService.class]: Post-processing of merged bean definition failed
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1381) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1218) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1155) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1121) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1056) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.5.jar:6.2.5]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.5.jar:6.2.5]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.4.jar:3.4.4]
+	at com.example.ex01.Ex01Application.main(Ex01Application.java:10) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.4.jar:3.4.4]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'memberService' defined in file [C:\boot-workspace\ex01\build\classes\java\main\com\example\ex01\service\MemberService.class]: Post-processing of merged bean definition failed
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:578) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1667) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1555) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-6.2.5.jar:6.2.5]
+	... 26 common frames omitted
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.ex01.service.MemberService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@324f0fa1]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:756) ~[spring-core-6.2.5.jar:6.2.5]
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:689) ~[spring-core-6.2.5.jar:6.2.5]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:432) ~[spring-context-6.2.5.jar:6.2.5]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:413) ~[spring-context-6.2.5.jar:6.2.5]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:313) ~[spring-context-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1109) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575) ~[spring-beans-6.2.5.jar:6.2.5]
+	... 36 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/example/ex01/repo/MemberDataSet
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3297) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2371) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:751) ~[spring-core-6.2.5.jar:6.2.5]
+	... 42 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.example.ex01.repo.MemberDataSet
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121) ~[spring-boot-devtools-3.4.4.jar:3.4.4]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	... 46 common frames omitted
+
+2025-04-09T12:43:47.041+09:00  INFO 9304 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Starting Ex01Application using Java 17.0.14 with PID 9304 (C:\boot-workspace\ex01\build\classes\java\main started by chohe in C:\boot-workspace\ex01)
+2025-04-09T12:43:47.041+09:00 DEBUG 9304 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-09T12:43:47.041+09:00  INFO 9304 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T12:43:47.436+09:00  INFO 9304 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-09T12:43:47.439+09:00  INFO 9304 --- [ex01] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-09T12:43:47.440+09:00  INFO 9304 --- [ex01] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09T12:43:47.469+09:00  INFO 9304 --- [ex01] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-04-09T12:43:47.469+09:00  INFO 9304 --- [ex01] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 424 ms
+2025-04-09T12:43:47.590+09:00  INFO 9304 --- [ex01] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T12:43:47.597+09:00  INFO 9304 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T12:43:47.602+09:00  INFO 9304 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Started Ex01Application in 0.623 seconds (process running for 248.231)
+2025-04-09T12:43:47.604+09:00  INFO 9304 --- [ex01] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-09T12:44:13.211+09:00  INFO 18364 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Starting Ex01Application using Java 17.0.14 with PID 18364 (C:\boot-workspace\ex01\build\classes\java\main started by chohe in C:\boot-workspace\ex01)
+2025-04-09T12:44:13.215+09:00 DEBUG 18364 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-09T12:44:13.217+09:00  INFO 18364 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T12:44:13.308+09:00  INFO 18364 --- [ex01] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-09T12:44:13.308+09:00  INFO 18364 --- [ex01] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-09T12:44:15.276+09:00  INFO 18364 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-09T12:44:15.300+09:00  INFO 18364 --- [ex01] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-09T12:44:15.301+09:00  INFO 18364 --- [ex01] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09T12:44:15.365+09:00  INFO 18364 --- [ex01] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-09T12:44:15.366+09:00  INFO 18364 --- [ex01] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2057 ms
+2025-04-09T12:44:16.019+09:00  INFO 18364 --- [ex01] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T12:44:16.074+09:00  INFO 18364 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T12:44:16.087+09:00  INFO 18364 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Started Ex01Application in 3.819 seconds (process running for 4.437)
+2025-04-09T12:48:06.144+09:00  INFO 18364 --- [ex01] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-09T12:48:06.145+09:00  INFO 18364 --- [ex01] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-09T12:48:06.146+09:00  INFO 18364 --- [ex01] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-04-09T12:59:25.462+09:00  INFO 18364 --- [ex01] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-04-09T12:59:25.467+09:00  INFO 18364 --- [ex01] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-09T12:59:25.760+09:00  INFO 18364 --- [ex01] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-09T12:59:25.892+09:00  INFO 18364 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Starting Ex01Application using Java 17.0.14 with PID 18364 (C:\boot-workspace\ex01\build\classes\java\main started by chohe in C:\boot-workspace\ex01)
+2025-04-09T12:59:25.894+09:00 DEBUG 18364 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-09T12:59:25.895+09:00  INFO 18364 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T12:59:26.570+09:00  INFO 18364 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-09T12:59:26.571+09:00  INFO 18364 --- [ex01] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-09T12:59:26.573+09:00  INFO 18364 --- [ex01] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09T12:59:26.608+09:00  INFO 18364 --- [ex01] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-09T12:59:26.608+09:00  INFO 18364 --- [ex01] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 710 ms
+2025-04-09T12:59:26.771+09:00  INFO 18364 --- [ex01] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T12:59:26.785+09:00  INFO 18364 --- [ex01] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T12:59:26.789+09:00  INFO 18364 --- [ex01] [restartedMain] com.example.ex01.Ex01Application         : Started Ex01Application in 0.96 seconds (process running for 915.138)
+2025-04-09T12:59:26.791+09:00  INFO 18364 --- [ex01] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged

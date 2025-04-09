@@ -26,4 +26,14 @@ public class MemberService {
             return -1;
         return ds.update(dto, id);
     }
+    public int mDelete(String id){
+        return ds.mDelete(id);
+    }
 }
+
+
+
+
+
+
+

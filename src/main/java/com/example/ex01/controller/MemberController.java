@@ -89,7 +89,13 @@ public class MemberController {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body("없음");
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("필수");
     }
-
+    @DeleteMapping("/mem/{id}")
+    public ResponseEntity mDelete(@PathVariable String id){
+        int result = ms.mDelete(id);
+        if(result == 1)
+            return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
+        return ResponseEntity.status(HttpStatus.NOT_FOUND).body("id없음");
+    }
 }
 
 

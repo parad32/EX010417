@@ -9,6 +9,9 @@ public class MemberDataSet {
     private ArrayList<MemberDTO> DB;
     public MemberDataSet(){
         DB = new ArrayList<>();
+        DB.add(new MemberDTO("aaa","aaa","ROLE_api"));
+        DB.add(new MemberDTO("bbb","bbb","ROLE_api"));
+        DB.add(new MemberDTO("ccc","ccc","ROLE_api"));
     }
     public int insert(MemberDTO dto){
         //insert dto;
@@ -33,4 +36,24 @@ public class MemberDataSet {
         }
         return 0;
     }
+    public int mDelete( String id ){
+        for(int i=0 ; i< DB.size() ; i++){
+            if( DB.get(i).getUsername().equals(id) ){
+                DB.remove(i);
+                return 1;
+            }
+        }
+        return 0;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
