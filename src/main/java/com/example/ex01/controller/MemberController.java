@@ -80,9 +80,8 @@ public class MemberController {
     @PutMapping("/mem/{id}")
     public ResponseEntity update1(@PathVariable("id") String id,
                                   @RequestBody MemberDTO dto){
-        log.debug("modify : {} ", dto);
-        log.debug("modify : {} ", id);
-
+        log.debug("id {}",id);
+        log.debug("dto {}",dto);
         int result = ms.update(dto, id);
         if(result == 1 )
             return ResponseEntity.status(HttpStatus.OK).body("성공");
@@ -117,6 +116,14 @@ public class MemberController {
         else if( result == 1)
             return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("비번틀림");
         return ResponseEntity.status(HttpStatus.NOT_FOUND).body("id없음");
+    }
+    @GetMapping("/mem/{id}")
+    public ResponseEntity memOne(@PathVariable("id") String username){
+        log.debug("받은 id {} ", username);
+        MemberDTO dto = ms.getOne( username );
+        if( dto != null )
+            return ResponseEntity.ok( dto );
+        return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
     }
 }
 

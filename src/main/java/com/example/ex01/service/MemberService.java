@@ -7,6 +7,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.lang.reflect.Member;
 import java.util.ArrayList;
 
 @Service
@@ -41,6 +42,11 @@ public class MemberService {
             session.setAttribute("username", username);
         }
         return result;
+    }
+    public MemberDTO getOne( String username ){
+        MemberDTO dto = null;
+        dto = ds.getOne( username );
+        return dto;
     }
 }
 

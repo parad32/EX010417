@@ -58,6 +58,13 @@ public class MemberDataSet {
         }
         return result;
     }
+    public MemberDTO getOne( String username ){
+        for(MemberDTO dto : DB){
+            if(dto.getUsername().equals( username ) )
+                return dto;
+        }
+        return null;
+    }
 }
 
 
