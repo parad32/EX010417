@@ -60,7 +60,7 @@ public class MemberController {
         return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
     }
     @DeleteMapping("/members/{id}")
-    public ResponseEntity memberDelete(@PathVariable String id){
+    public ResponseEntity memberDelete(@PathVariable("id") String id){
         log.debug("삭제 : {}",id);
         return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
     }
@@ -74,8 +74,8 @@ public class MemberController {
         return ResponseEntity.status(HttpStatus.CONFLICT).body("존재하는 id 임");
     }
     @GetMapping("/mem")
-    public ResponseEntity getList(){
-        return ResponseEntity.status(HttpStatus.OK).body( ms.getList() );
+    public ResponseEntity getList(@RequestParam(defaultValue = "0") int start ){
+        return ResponseEntity.status(HttpStatus.OK).body( ms.getList(start) );
     }
     @PutMapping("/mem/{id}")
     public ResponseEntity update1(@PathVariable("id") String id,
@@ -90,7 +90,7 @@ public class MemberController {
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("필수");
     }
     @DeleteMapping("/mem/{id}")
-    public ResponseEntity mDelete(@PathVariable String id){
+    public ResponseEntity mDelete(@PathVariable("id") String id){
         int result = ms.mDelete(id);
         if(result == 1)
             return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
