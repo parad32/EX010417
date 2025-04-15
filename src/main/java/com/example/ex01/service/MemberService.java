@@ -4,9 +4,11 @@ import com.example.ex01.domain.MemberEntity;
 import com.example.ex01.dto.MemberDTO;
 import com.example.ex01.repo.MemberDataSet;
 import com.example.ex01.repo.MemberRepo;
+import com.example.ex01.utils.JwtUtil;
 import jakarta.servlet.http.HttpSession;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -22,6 +24,8 @@ import java.util.Map;
 @Service
 @RequiredArgsConstructor
 public class MemberService {
+    @Value("${jwt.secretKey}")
+    private String secretKey;
     @Autowired
     MemberDataSet ds;
     private final MemberRepo repo;
@@ -84,18 +88,20 @@ public class MemberService {
         return 0;
     }
 
-    public int login( String username, String password ){
+    public Map<String, Object> login( String username, String password ){
         int result = -1;
-        //result = ds.login(username, password);
+        Map<String, Object> map = new HashMap<>();
         MemberEntity entity = repo.findByUsername(username);
         if( entity != null ){
             result = 1;
             if(entity.getPassword().equals(password) ){
-                session.setAttribute("username", username);
                 result = 0;
+                map.put("token", JwtUtil.createJwt(username,
+                                    secretKey, entity.getRole() ));
             }
         }
-        return result;
+        map.put("result", result);
+        return map;
     }
     public MemberDTO getOne( String username ){
         //MemberDTO dto = null;

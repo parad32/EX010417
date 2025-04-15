@@ -98,24 +98,28 @@ public class MemberController {
     }
     @PostMapping("/mem/login2")
     public ResponseEntity login2(@RequestBody Map<String, String> map){//@RequestBody MemberDTO dto){
+        /*
         log.debug("login map : {}", map);
         int result = ms.login( map.get("username"), map.get("password") );
         if( result == 0 )
             return ResponseEntity.status(HttpStatus.OK).body("성공");
         else if( result == 1)
             return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("비번틀림");
+
+         */
         return ResponseEntity.status(HttpStatus.NOT_FOUND).body("id없음");
     }
     @PostMapping("/mem/login")
     //@RequestParam String username, password
     public ResponseEntity login( @ModelAttribute MemberDTO dto ){
         log.debug("login dto : {}", dto);
-        int result = ms.login( dto.getUsername(), dto.getPassword() );
+        Map<String, Object> map = ms.login( dto.getUsername(), dto.getPassword() );
+        int result =  (Integer)map.get("result") ;
         if( result == 0 )
-            return ResponseEntity.status(HttpStatus.OK).body("성공");
+            return ResponseEntity.status(HttpStatus.OK).body( map ) ;
         else if( result == 1)
-            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("비번틀림");
-        return ResponseEntity.status(HttpStatus.NOT_FOUND).body("id없음");
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body( map );
+        return ResponseEntity.status(HttpStatus.NOT_FOUND).body( map );
     }
     @GetMapping("/mem/{id}")
     public ResponseEntity memOne(@PathVariable("id") String username){
