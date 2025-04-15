@@ -74,7 +74,7 @@ public class MemberController {
         return ResponseEntity.status(HttpStatus.CONFLICT).body("존재하는 id 임");
     }
     @GetMapping("/mem")
-    public ResponseEntity getList(@RequestParam(defaultValue = "0") int start ){
+    public ResponseEntity getList(@RequestParam(value="start", defaultValue = "0") int start ){
         return ResponseEntity.status(HttpStatus.OK).body( ms.getList(start) );
     }
     @PutMapping("/mem/{id}")
