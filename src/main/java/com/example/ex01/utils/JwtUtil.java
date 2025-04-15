@@ -24,7 +24,7 @@ public class JwtUtil {
     }
 
     public static  String createJwt(String username, String secretKey, String role){
-        Long expiredMs = 1000 * 60l;
+        Long expiredMs = 1000 * 60l * 30;
         Claims claims = Jwts.claims();
         claims.put("username",username);
         claims.put("role",role);

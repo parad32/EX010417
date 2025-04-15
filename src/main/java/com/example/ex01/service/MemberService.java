@@ -47,6 +47,7 @@ public class MemberService {
                 fileName = UUID.randomUUID().toString() + "-"+
                         file.getOriginalFilename();
             }
+            dto.setFileName( fileName );
             repo.save( new MemberEntity( dto ) ) ;
             result = 1;
             Path path = Paths.get(DIR + fileName);
@@ -125,6 +126,17 @@ public class MemberService {
         //dto = ds.getOne( username );
         //return dto;
         return new MemberDTO( repo.findByUsername(username) );
+    }
+
+    public byte[] getImage(String fileName ){
+        Path filePath = Paths.get(DIR+fileName);
+        byte[] imageBytes = {0};
+        try {
+            imageBytes = Files.readAllBytes(filePath);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return imageBytes;
     }
 }
 

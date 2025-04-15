@@ -5,6 +5,7 @@ import com.example.ex01.service.MemberService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpOutputMessage;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -138,6 +139,13 @@ public class MemberController {
         if( dto != null )
             return ResponseEntity.ok( dto );
         return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+    }
+    @GetMapping("mem/{fileName}/image")
+    public ResponseEntity getImage(@PathVariable(value="fileName") String fileName){
+        byte[] imageByte = ms.getImage(fileName);
+        return ResponseEntity.ok()
+                .header(HttpHeaders.CONTENT_TYPE, "image/jpeg")
+                .body( imageByte );
     }
 }
 
