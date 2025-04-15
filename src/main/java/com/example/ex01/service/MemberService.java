@@ -14,12 +14,14 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
+import org.springframework.web.multipart.MultipartFile;
 
+import java.io.File;
 import java.lang.reflect.Member;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.*;
 
 @Service
 @RequiredArgsConstructor
@@ -31,12 +33,27 @@ public class MemberService {
     private final MemberRepo repo;
     private final HttpSession session;
 
-    public int insert(MemberDTO dto){
+    final String DIR = "uploads/";
+
+
+    public int insert(MemberDTO dto, MultipartFile file){
         int result = 0;
         //result = ds.insert(dto);
         try {
+            String fileName = null;
+            if( file.isEmpty() ){
+                fileName = "nan";
+            }else{
+                fileName = UUID.randomUUID().toString() + "-"+
+                        file.getOriginalFilename();
+            }
             repo.save( new MemberEntity( dto ) ) ;
             result = 1;
+            Path path = Paths.get(DIR + fileName);
+            Files.createDirectories( path.getParent() );
+            if( !file.isEmpty() )
+                file.transferTo( path );
+
         } catch (Exception e) {
             //throw new RuntimeException(e);
             e.printStackTrace();

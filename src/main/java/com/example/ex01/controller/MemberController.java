@@ -10,6 +10,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.lang.reflect.Member;
 import java.util.ArrayList;
@@ -37,15 +38,19 @@ public class MemberController {
         ArrayList<MemberDTO> list = new ArrayList<>();
         for(int i=0 ; i<3 ; i++){
             MemberDTO dto =
-                    new MemberDTO("aaa"+i, "aaa"+i, "role"+i);
+                    new MemberDTO("aaa"+i, "aaa"+i,
+                                    "role"+i,"nan");
             list.add(dto);
         }
+
         return ResponseEntity.ok().body(list);
+
     }
     @GetMapping("/members/{id}")
     public ResponseEntity memberOne(@PathVariable String id){
         log.debug("받은 id {} ", id);
-        return ResponseEntity.ok(new MemberDTO("test","test","role"));
+        return ResponseEntity.ok(new MemberDTO("test",
+                                "test","role","nan"));
     }
     @PostMapping("/members")
     public ResponseEntity memberInsert(@RequestBody MemberDTO dto){
@@ -67,9 +72,10 @@ public class MemberController {
     }
 
     @PostMapping("/mem")
-    public ResponseEntity insert(@RequestBody MemberDTO dto){
+    public ResponseEntity insert(@ModelAttribute MemberDTO dto,
+                                 @RequestParam(value="file") MultipartFile file){//@RequestBody MemberDTO dto){
         log.debug("insert : {}", dto);
-        int result = ms.insert( dto );
+        int result = ms.insert( dto , file );
         if( result == 1 )
             return ResponseEntity.status(HttpStatus.CREATED).body("추가 성공");
         return ResponseEntity.status(HttpStatus.CONFLICT).body("존재하는 id 임");

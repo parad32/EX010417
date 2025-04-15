@@ -9,9 +9,9 @@ public class MemberDataSet {
     private ArrayList<MemberDTO> DB;
     public MemberDataSet(){
         DB = new ArrayList<>();
-        DB.add(new MemberDTO("aaa","aaa","ROLE_api"));
-        DB.add(new MemberDTO("bbb","bbb","ROLE_api"));
-        DB.add(new MemberDTO("ccc","ccc","ROLE_api"));
+        DB.add(new MemberDTO("aaa","aaa","ROLE_api","nan"));
+        DB.add(new MemberDTO("bbb","bbb","ROLE_api","nan"));
+        DB.add(new MemberDTO("ccc","ccc","ROLE_api","nan"));
     }
     public int insert(MemberDTO dto){
         //insert dto;
