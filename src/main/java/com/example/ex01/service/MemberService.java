@@ -7,6 +7,7 @@ import com.example.ex01.repo.MemberRepo;
 import com.example.ex01.utils.JwtUtil;
 import jakarta.servlet.http.HttpSession;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.domain.Page;
@@ -25,6 +26,7 @@ import java.util.*;
 
 @Service
 @RequiredArgsConstructor
+@Slf4j
 public class MemberService {
     @Value("${jwt.secretKey}")
     private String secretKey;
@@ -82,6 +84,12 @@ public class MemberService {
          */
     }
     public int update(MemberDTO dto,String id){
+        /*
+         수정
+         사용자가 파일을 선택했다면, 기존 파일 삭제 후 새로운 파일 저장
+         선택하지 않았다면 기존파일 그냥 두면 됨
+         */
+
         if(dto.getUsername() == null || dto.getPassword() == null ||
                         dto.getRole() == null )
             return -1;
@@ -96,11 +104,17 @@ public class MemberService {
         }
         return 0;
     }
-    public int mDelete(String id){
+    public int mDelete(String id, String fileName){
         //return ds.mDelete(id);
         MemberEntity entity = repo.findByUsername( id );
         if(entity != null){
             repo.delete( entity );
+            try{
+                Path path = Paths.get(DIR+fileName);
+                Files.deleteIfExists( path );
+            } catch (Exception e) {
+                throw new RuntimeException(e);
+            }
             return 1;
         }
         return 0;
@@ -133,6 +147,7 @@ public class MemberService {
         byte[] imageBytes = {0};
         try {
             imageBytes = Files.readAllBytes(filePath);
+            log.info("imageByte : {}", imageBytes );
         }catch (Exception e){
             e.printStackTrace();
         }

@@ -99,10 +99,11 @@ public class MemberController {
     }
     @DeleteMapping("/mem/{id}")
     public ResponseEntity mDelete(@PathVariable("id") String id,
-                                  Authentication authentication){
+                                  Authentication authentication,
+                                  @RequestBody String fileName ){
         if( !authentication.getName().equals(id) )
             return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("사용자 일치하지 않음");
-        int result = ms.mDelete(id);
+        int result = ms.mDelete(id , fileName);
         if(result == 1)
             return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
         return ResponseEntity.status(HttpStatus.NOT_FOUND).body("id없음");
