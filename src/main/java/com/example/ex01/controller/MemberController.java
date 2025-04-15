@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpOutputMessage;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.*;
 
 import java.lang.reflect.Member;
@@ -90,7 +91,10 @@ public class MemberController {
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("필수");
     }
     @DeleteMapping("/mem/{id}")
-    public ResponseEntity mDelete(@PathVariable("id") String id){
+    public ResponseEntity mDelete(@PathVariable("id") String id,
+                                  Authentication authentication){
+        if( !authentication.getName().equals(id) )
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("사용자 일치하지 않음");
         int result = ms.mDelete(id);
         if(result == 1)
             return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
